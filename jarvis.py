@@ -57,7 +57,7 @@ def wishme() -> None:
 
 def screenshot() -> None:
     img = pyautogui.screenshot()
-    img_path = os.path.expanduser("\Users\saravan\Pictures")
+    img_path = os.path.expanduser("~\\Pictures\\ss.png")
     img.save(img_path)
 
 
